@@ -1,0 +1,21 @@
+{
+	"name": "ez-curl",
+	"version": "1.0.0",
+	"description": "Easy fetch wrappe",
+	"type": "module",
+	"scripts": {
+		"build": "npx tsc"
+	},
+	"bin": {
+		"ez-fetch": "./bin/index.js"
+	},
+	"author": "Shahar Duany",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^12.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.2.0",
+		"typescript": "^5.5.4"
+	}
+}
